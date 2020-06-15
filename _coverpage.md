@@ -1,12 +1,13 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+![logo](img/icon.svg)
 
 # 杨会智学习文档
 
-> 使用Vue全家桶+Node.js搭建的小型全栈项目.
+> 怎样使用 Doscify 生成动态文档.
 
-* 前端框架：vue-cli、vue-router、axios、vuex
-* UI类库：Mint-UI、Vant
-* 后端数据接口：Express、MongoDB
+* 日有所学
+* 周有所得
+* 月有所悟
+* 年有所获
 
-[GitHub](https://github.com/yanghuizhi/Yanghuizhi-Docsify.git/)
-[Get Started](#headline)
+[GitHub](https://github.com/yanghuizhi/Docsify.git/)
+[Get Started](#)

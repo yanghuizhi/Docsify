@@ -1,6 +1,6 @@
 ![logo](img/icon.svg)
 
-# 杨会智学习文档
+# 智哥的学习文档  <small>0.0.3</small>
 
 > 怎样使用 Doscify 生成动态文档.
 
@@ -10,4 +10,5 @@
 * 年有所获
 
 [GitHub](https://github.com/yanghuizhi/Docsify.git/)
-[Get Started](#)
+[开始学习](#docsify)
+[我去百度](https://www.baidu.com/)

@@ -1,4 +1,5 @@
 # <center>使用声明<center>
+---
 
 ### 快速安装
 > npm i docsify-cli -g

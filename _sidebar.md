@@ -19,7 +19,7 @@
 - **Links**
 - [![Person Page](https://icongr.am/entypo/home.svg?size=16&color=808080)Person Page](http://www.boommanpro.cn/)
 - [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Github](https://github.com/yanghuizhi/)
-- [![CSDN](miniimg/钻石-16.svg)静态页面学习](Links/README.md)
-- [![222](yanghuizhi.github.io/Docsify/miniimg/机械-16.svg)图标网](
+- [![](img/钻石-16.svg)静态页面学习](Links/README.md)
+- [![222](img/机械-16.svg)图标网](
 https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2)
 

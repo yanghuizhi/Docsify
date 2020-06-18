@@ -8,6 +8,7 @@
 * 周有所得
 * 月有所悟
 * 年有所获
+* 最后发布时间：2020年6月18日下午5点
 
 [GitHub](https://github.com/yanghuizhi/Docsify.git/)
 [开始学习](#快速安装)

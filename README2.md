@@ -1,8 +1,12 @@
-# <center> 使用声明 <center>
+<template>
+  <h1 style="text-align: center; color: #42b983;">
+    使用声明
+  </h1>
+</template>
 
 ---
 
-### 快速安装
+## 快速安装
 > npm i docsify-cli -g
 
 <details>
@@ -19,7 +23,7 @@ docsify-cli version:
 
 </details>
 
-### 初始化项目
+## 初始化项目
 > docsify init ./yanghuizhi
 
 <details>
@@ -33,10 +37,10 @@ README.md 会做为主页内容渲染
 
 </details>
 
-### 运行项目
+## 运行项目
 > docsify serve yanghuihi
 
-### 常用配置项
+## 常用配置项
 * `_coverpage.md` 封面渲染
 * `_sidebar.md`   侧边栏
 * `_navbar.md`    导航条

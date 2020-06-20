@@ -11,5 +11,5 @@
 * 最后发布时间：2020年6月18日下午5点
 
 [GitHub](https://github.com/yanghuizhi/Docsify.git/)
-[开始学习](#快速安装)
+[开始学习](README2.md)
 [我去百度](https://www.baidu.com/)

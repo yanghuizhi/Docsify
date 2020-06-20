@@ -5,6 +5,8 @@ https://docsify.js.org/#/
 
 https://taogod.github.io/extraordinarywen/#/
 
+https://aopstudio.github.io/docs/#/?id=storage-mangagement-4
+
 附件学习网址：
 - https://www.hojun.cn/2020/02/14/ck70nptmr00eqe0tu63ziuvgx/
 - http://www.amdoing.com/static-site-generator-hexo-gitbook-vuepress-and-so-on/

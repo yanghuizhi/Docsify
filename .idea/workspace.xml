@@ -22,15 +22,7 @@
     <list default="true" id="738f5001-23fb-4627-9552-8d00672d4da9" name="默认更改列表" comment="update markdown1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_navbar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_navbar.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_sidebar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/Deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/Deploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/Helpers.md" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/Helpers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/Vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/Vue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/1标题.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/1标题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/2锚点.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/2锚点.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/3文字.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/3文字.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../orderservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pypy\Docsify" />
       <recent name="E:\pypy\Docsify\exercise" />
       <recent name="E:\pypy\Docsify\Links\img" />
       <recent name="E:\pypy\Docsify\miniimg" />
       <recent name="E:\pypy\Docsify\markdown" />
-      <recent name="E:\pypy\Docsify\Work" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\pypy\Docsify\miniimg" />
@@ -86,7 +78,7 @@
       <workItem from="1592227236189" duration="881000" />
       <workItem from="1592228178559" duration="341000" />
       <workItem from="1592228529855" duration="1731000" />
-      <workItem from="1592230366850" duration="39589000" />
+      <workItem from="1592230366850" duration="39807000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1592228327271</created>

@@ -14,8 +14,10 @@
         - [CSS语法待修正](exercise/Helpers.md)
  
 - **Links**
-- [![Person Page](https://icongr.am/entypo/home.svg?size=16&color=808080)Person Page](http://www.boommanpro.cn/)
-- [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Github](https://github.com/yanghuizhi/)
-- [![静态页面学习](../miniimg/钻石-16.svg)静态页面学习](Links/README.md)
-- [![图标网](../miniimg/机械-16.svg)图标网](
+- [![Person Page](https://icongr.am/entypo/home.svg?size=18&color=currentColor)Person Page](http://www.boommanpro.cn/)
+- [![Github](https://icongr.am/devicon/github-original.svg?size=18&color=currentColor)Github](https://github.com/yanghuizhi/)
+- [![静态页面学习](https://icongr.am/fontawesome/automobile.svg?size=18&color=df8507)静态页面学习](Links/README.md)
+- [![图标网1](../miniimg/机械-16.svg)图标网 1](
 https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2)
+- [![图标网2](https://icongr.am/fontawesome/bomb.svg?size=18&color=2d1fea)图标网 2](
+https://icongr.am/devicon)

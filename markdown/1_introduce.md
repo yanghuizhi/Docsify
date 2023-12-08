@@ -6,6 +6,8 @@
 </div>
 </html>
 
+---
+
 ### 简要说明
 ```python
 # 快速安装
@@ -15,9 +17,7 @@
 ```
 PS：如果换了电脑，需要重新随便初始化一个项目，即可正常运行
 
-<br/>
-
-##### 目录如下：
+### 项目目录
 ```html
 index.html 入口文件
 README.md 会做为主页内容渲染
@@ -29,8 +29,9 @@ README.md 会做为主页内容渲染
 `_navbar.md`    导航条
 ```
 
+<br/>
 <details>
-<summary style="color:green; font-size:15px">版本查看</summary>
+<summary style="color:green; font-size:18px">版本查看</summary>
 
 ```markdown
 >> docsify -v
@@ -43,3 +44,6 @@ docsify-cli version:
 
 </details>
 
+#### 一些图标
+* :sunny: :sunflower: :crescent_moon: :earth_americas:
+* [:cn:]

@@ -1,18 +1,13 @@
 <!-- _navbar.md -->
 
-* [:sunny: :sunflower: :crescent_moon: :earth_americas:](/#)
-* [:cn:](README2.md)
+* [Docsify](/#)
 
-* Docsify
-    * [基本介绍](README2.md "还可以这么操作")
+* [README](markdown/1_introduce.md "还可以这么操作")
 
-* [**Markdown**](markdown/README.md)
-    * [1、标题](markdown/1标题.md)
-    * [2、锚点](markdown/2锚点.md)
-    * [3、文字](markdown/3文字.md)
-    * [99、杂文](markdown/99杂.md)
+* [未完待续](markdown/10_1_start.md)
+    * [1、标题](markdown/10_2_标题.md)
+    * [2、锚点](markdown/10_3_锚点.md)
+    * [3、文字](markdown/10_4_文字.md)
+    * [4、敬请期待](markdown/10_5_敬请期待.md)
 
-* 未完待续
-    * [第二页](exercise/Vue.md)
-        * [第三页](exercise/2.md)
  

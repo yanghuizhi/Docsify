@@ -1,85 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>杨会智</title>
-  <!--  这三个标签不能丢，下，否则样式会错误-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>Yanghuizhi</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+    <link rel="shortcut icon" href="src/_media/favicon.ico" />
 </head>
 <body>
 
-  <!--缓冲等待-->
-  <div id="app">Please wait...</div>
-
-  <script>
+    <div id="app">Please wait...</div>
+    <script>
     window.$docsify = {
-      // logo: '/icon/钻石-32.svg',
-      name: '杨会智',
-      repo: 'https://github.com/yanghuizhi/Docsify',
-      coverpage: true,         //激活封面功能。如果为true，则会从中加载_coverpage.md。
-      // coverpage: {          //多个封面配置
-      // '/': '_coverpage.md',
-      // '/zh-cn/': 'cover.md'
-      // },
-      loadSidebar: true,      //_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载。
-      loadNavbar: true,       //_navbar.md如果为真，则从_navbar.md文件加载navbar ，否则从指定的路径加载。
-      mergeNavbar: true,      //Navbar将在小屏幕上与侧边栏合并。
-      maxLevel: 4,            //最大的内容表级别。
-      subMaxLevel: 2,         //在自定义边栏中添加目录（TOC）。
-      ga: 'UA-106147152-1',
-      relativePath: false,    // 相对定位
-      auto2top: true,         // Scrolls to the top of the screen when the route is changed.
-      executeScript: true,    // 执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开启。
+        el: '#app',
+        loadSidebar: true,      // 加载侧边栏 _sidebar.md
+        subMaxLevel: 2,         // 侧边栏目录等级
+        hideSidebar: false,     // 侧边栏完全隐藏，并且不会在侧面呈现任何内容
+        logo: '',               // 侧边栏网站徽标，如有会影响下面的名字
+        name: '文档目录',         // 侧栏中显示的网站名称
 
-      // 后面的咱都不知道啥意思，照抄的
-      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
+        loadNavbar: true,       // 加载导航栏 _navbar.md
+        mergeNavbar: true,      // 导航栏将与较小屏幕上的侧边栏合并
 
-      plugins: [
-        function(hook, vm) {
-          hook.beforeEach(function (html) {
-            return html
-              + '\n----\n'
-              + '> 最后更新时间： {docsify-updated}'
-          })}],
-      search: {               // 全文搜索
-        maxAge: 86400000, // Expiration time, the default one day
-        paths: [], // or 'auto'
-        // Localization
-        placeholder: {
-        '/zh-cn/': '搜索',
-        '/': 'search'
+        coverpage: true,        // 加载封面 _coverpage.md
+
+        auto2top: true,         // 路线更改时滚动到屏幕顶部
+        executeScript: true,    // 执行页面上的脚本
+        formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',  // 显示文件更新日期
+        maxLevel: 4,            // 最大目录级别
+        relativePath: false,    // 相对路径要选 false
+        disqus: 'shortname',    // 讨论，见下插件
+
+        plugins: [
+            function(hook, vm) {
+                hook.beforeEach(function (html) {
+                    return html
+                        + '\n----\n'
+                        + '> 最后更新时间： {docsify-updated}'
+                    }
+                )
+            }
+        ],
+
+        search: {               // 全文搜索
+            maxAge: 86400000, // Expiration time, the default one day
+            paths: [], // or 'auto'
+            // Localization
+            placeholder: {
+                '/': 'search'
+                },
+            // Localization
+            noData: {
+                '/': 'No Results'
+                },
+            // Headline depth, 1 - 6
+            depth: 6,
+            hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+            // To avoid search index collision
+            // between multiple websites under the same domain
+            namespace: 'website-1',
         },
-        // Localization
-        noData: {
-        '/zh-cn/': '找不到结果',
-        '/': 'No Results'
-        },
-        // Headline depth, 1 - 6
-        depth: 6,
-        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
-        // To avoid search index collision
-        // between multiple websites under the same domain
-        namespace: 'website-1',
-      },
 
     }
-  </script>
+    </script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!--emoji 表情实现-->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <!--启用 vue 系列-->
-  <script src="//cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
-  <script src="//unpkg.com/docsify-plugin-run"></script>
-  <script src="//unpkg.com/vue-run-sfc"></script>
-  <!--全局搜索，google搜索-->
-<!--
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
--->
+    <!-- docsify 自更新文件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- 分页
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    -->
+    <!--全局搜索，google搜索-->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+    <!-- disqus: 'shortname', 讨论，见下插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
 
 </body>
 </html>
